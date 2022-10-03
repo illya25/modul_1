@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto';  
+    font-weight: 400; 
+    margin: 0;
+  }
+
+  html{
+    font-size: 16px;
+  }
+
+  p{
+    color: #727272;
+  }
+
+.wrapper{
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+}
+
+.wrap{
+    min-height: 85vh;
+    max-height: 100%;
+}
+
+.header-wrap{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 700px;
+    
+    background: #EEEFF1;
+}
+
+
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 0px 160px 0px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu__iteam{
+    margin-left: 42px;
+    line-height: 1,63px;
+    letter-spacing: 0.150em;
+    transition:  0.4s ;
+}
+
+.menu__iteam:hover{
+    color: #34547A;
+}
+
+/* design */
+
+.design{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-bottom: 140px; */
+}
+
+.lapetop{
+    margin-left: 3em;
+}
+
+.disign-text{
+    max-height: 350px;
+    height: 350px;
+    flex-direction: column;
+    width: 50%;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.subtitle{
+    width: 80%;
+    line-height: 1.625;
+}
+
+
+/* btn */
+
+.block-btn{
+    padding-top: 60px;
+}
+
+.btn{
+    border: solid 2px #34547A;
+    color: #ffffff;
+    padding: 25px 40px;
+    background: #34547A;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: none;
+    color: #34547A;
+}
+
+/* about*/
+
+.about-cont{
+    /* position: absolute; */
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px 100px 0px;
+}
+
+.about-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1,2;
+}
+
+
+.about-subtitle{
+    max-width: 500px;
+}
+
+/* progres */
+
+.section{
+   background: #34547A;
+   height: 250px;
+}
+
+.progect{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.porgect-list{
+   display: flex;
+   /* align-items: center; */
+   /* flex-wrap: wrap; */
+   width: 150px;
+   
+}
+
+.porgect-list::before{
+    content: url(/image/Group.png);   
+    
+}
+
+.porgect-list h3 {
+    
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    
+}
+
+.porgect-list p {
+    color: #ffffff;
+}
+
+.progect-text{
+    padding-left: 13px;
+}
+
+
+
+/* skill block*/
+
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 102px;
+}
+
+.skill-list{
+    width: 445px;
+    color: #727272;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.skill-item + .skill-item{
+    padding-top: 30px;
+}
+
+.skill-title{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.skill-load{
+    position: relative;
+    height: 4px;
+    background: #c4c4c4;
+}
+
+.skill-progress{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #34547A;
+}
+
+.skill-text{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.skill-img img{
+    width: 555px;
+    /* height: 450px; */
+}
+
+/* Стили для средних экранов (дисплей максимум 991 пикселей) */
+    @media (max-width: 991px) { 
+        
+
+    }
+
+/* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
+    @media (max-width: 767px) {
+
+     }
+
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+    @media (max-width: 575px) {
+
+    }
